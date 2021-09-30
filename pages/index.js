@@ -5,7 +5,7 @@ function Homepage() {
       <Head>
         <title>Single Price Grid Component</title>
       </Head>
-      <div className=" overflow-hidden rounded-lg">
+      <div className=" overflow-hidden rounded-lg mx-auto md:w-2/4">
         <section className="p-8 bg-white ">
           <h1 className="text-green-600 text-xl font-semibold">
             Join our community
@@ -19,8 +19,8 @@ function Homepage() {
             their skills.
           </p>
         </section>
-        <section className="text-white">
-          <div className="bg-green-500 p-8">
+        <section className="text-white md:flex md:flex-row ">
+          <div className="bg-green-500 p-8 md:w-1/2">
             <h2 className="text-lg font-semibold">Monthly Subscription</h2>
             <div className="flex items-center pt-2">
               <p className="text-2xl font-semibold">$29 </p>
@@ -33,7 +33,7 @@ function Homepage() {
               Sign Up
             </button>
           </div>
-          <div className="bg-green-400 p-8">
+          <div className="bg-green-400 p-8 md:w-1/2">
             <h2 className="text-lg font-semibold">Why us</h2>
             <div className="text-xs font-light pt-2">
               <p>Tutorials by industry experts</p>
